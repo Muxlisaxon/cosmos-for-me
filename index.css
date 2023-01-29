@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./imgage/3620245.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.all{
+    text-align: center;
+    margin-top: 1000px;
+}
+.earth{
+    width: 1100px;
+    animation:earth 45s linear infinite  ;
+}
+@keyframes earth {
+    to{
+        transform: rotate(360deg);
+        animation:earth 45s linear infinite  ;
+    }  
+}
+.kos{
+    text-align: center;
+    margin-top: 400px;
+}
+.kosmanavt{
+    width: 500px;
+    top: 1000px;
+    left: 600px;
+    position: absolute;
+    animation: kosmanavt 35s linear infinite  ;
+}
+@keyframes kosmanavt {
+   10%{
+       transform: translateX(4000px);width: 300px;
+   }
+   35%{
+    transform: translateY(1600px);
+   }
+   56%{
+    transform: translateX(980px);
+   }
+   100%{
+    transform: translateY(1100px);
+   }
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.oy{
+    width: 700px;
+    margin-left: 1500px;
+    animation: oy 35s linear infinite;
+}
+@keyframes oy{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.mars{
+    width: 500px;
+    margin-right: 2000px;
+    animation: mars 45s linear infinite;
+}
+@keyframes mars{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.saturn{
+   margin-bottom: 800px;
+}
+.pluton{
+    width: 300px;
+    margin-left: 1500px;
+    animation: pluton 30s linear infinite;
+}
+@keyframes pluton{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.uran{
+        width: 500px;
+        margin-right: 2500px;
+        animation: uran 30s linear infinite;
+}
+@keyframes uran{
+        to{
+            transform: rotate(360deg);
+        }
+}
+.saturn{
+        width: 500px;
+        animation: saturn 25s linear infinite;
+}
+@keyframes saturn{
+        to{
+            transform: rotate(360deg);
+        }
+}
